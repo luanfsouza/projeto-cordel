@@ -15,10 +15,10 @@
 }
 header {
     background-color: black;
-    height: 220px;
+
 }
 header h1, h3, a {
-    color: white;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
 
@@ -26,12 +26,17 @@ header h1, h3, a {
 }
 header h1 {
     font-family: 'escuro';
-    font-size: 8vw;
-    padding-top: 40px;
+    font-size: 10vw;
+    padding-top: 50px;
     font-weight: bold;
+    font-variant: small-caps;
 }
 header a {
     font-family: Verdana;
+
+}
+header h3 {
+    padding-bottom: 50px;
 }
 p {
     padding-top: 70px;
@@ -40,6 +45,9 @@ p {
     font-size: 3vw;
     line-height: 2em;
     
+}
+a:hover {
+    text-decoration: underline;
 }
 #um {
     background-image: url(imagens/background001.jpg);
@@ -52,13 +60,13 @@ p {
     position: relative;
     margin-top: 90px;
     margin-bottom: 90px;
+    box-shadow: inset 6px 6px 13px #000000ab;
 }
 .joaninha {
-    padding: 10px 8px;
-    background-color: #000000ac;
-    color: white;
-    font-size: 2.5vw;
-
+    color: #ffffff;
+    background-color: #0000007c;
+    padding: 10px;
+    display: inline-block;
 }
 .j{
     width: 40vw;
@@ -77,6 +85,7 @@ p {
     position: relative;
     margin-top: 90px;
     margin-bottom: 90px;
+    box-shadow: inset 6px 6px 13px #000000ab;
 }
 .folha {
     padding: 10px 8px;
